@@ -7,7 +7,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name='findora',
-    version='2025.5.11803',
+    version='2025.7.131053',
     author='Eugene Evstafev',
     author_email='chigwel@gmail.com',
     description='Search engine',

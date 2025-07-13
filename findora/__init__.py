@@ -54,7 +54,7 @@ def findora(
         raise ValueError("Search query is too long. Maximum length is 1000 characters.")
 
     if llm is None:
-        llm = ChatLLM7(model="searchgpt")
+        llm = ChatLLM7(model="elixposearch")
 
     is_valid_query = llmatch(
         llm=llm,
